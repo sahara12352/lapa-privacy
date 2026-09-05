@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Политика конфиденциальности — Lapa</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 5rem;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #0f172a;
+    background: #f8fafc;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f8fafc; background: #0f172a; }
+    td, th { border-color: #334155 !important; }
+    a { color: #34d399; }
+  }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2.25rem; }
+  .sub { color: #64748b; margin-top: 0; }
+  a { color: #047857; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+  td, th { border: 1px solid #cbd5e1; padding: .5rem .6rem; text-align: left; vertical-align: top; }
+  th { background: rgba(127, 127, 127, .12); }
+  hr { border: none; border-top: 1px solid #cbd5e1; margin: 3.5rem 0; }
+  ul { padding-left: 1.2rem; }
+</style>
+</head>
+<body>
+
+<h1>Политика конфиденциальности</h1>
+<p class="sub">
+  Приложение <strong>Lapa</strong> (<code>com.lapa.petcare</code>)<br>
+  Обновлено: 5 сентября 2026 · <a href="#en">English version below</a>
+</p>
+
+<p>
+  Lapa — приложение для ухода за домашними животными. Оно работает без интернета,
+  и по умолчанию все ваши записи остаются только на вашем устройстве.
+</p>
+
+<h2>1. Какие данные вы вводите</h2>
+<p>Всё перечисленное вы вводите сами и всё это хранится <strong>в памяти вашего телефона</strong>:</p>
+<ul>
+  <li>сведения о питомце: кличка, вид, порода, пол, дата рождения, вес, окрас, номер чипа, заметки, фотография;</li>
+  <li>процедуры ухода и напоминания о них;</li>
+  <li>медицинские записи: прививки, визиты к ветеринару, диагнозы, назначения, стоимость приёма;</li>
+  <li>прикреплённые фотографии и документы;</li>
+  <li>история измерений веса.</li>
+</ul>
+<p>
+  Эти данные никуда не отправляются. Разработчик к ним доступа не имеет.
+</p>
+
+<h2>2. Облачная копия — только по вашему решению</h2>
+<p>
+  В настройках можно включить резервную копию в облаке. Она выключена по умолчанию
+  и требует создания учётной записи. Если вы её включили:
+</p>
+<ul>
+  <li>
+    <strong>Адрес электронной почты и пароль.</strong> Нужны, чтобы вы могли войти со
+    второго устройства. Пароль хранится не в открытом виде, а в виде необратимого
+    криптографического отпечатка, и разработчику неизвестен.
+  </li>
+  <li>
+    <strong>Снимок ваших записей</strong> — то же, что перечислено в разделе 1.
+    Он привязан к вашей учётной записи, и правила доступа на стороне базы данных
+    не позволяют прочитать его никому, кроме вас.
+  </li>
+</ul>
+<p>
+  Данные хранятся на серверах Supabase Inc. в <strong>Франкфурте, Германия (ЕС)</strong>.
+  Ключ входа хранится на устройстве в защищённом системном хранилище
+  (Android Keystore), а не в открытом файле.
+</p>
+<p>
+  Если облачную копию не включать, приложение не обращается в интернет вообще.
+</p>
+
+<h2>3. Что НЕ собирается</h2>
+<p>Ничего из этого в приложении нет и не появлялось:</p>
+<ul>
+  <li>систем аналитики и статистики посещений;</li>
+  <li>рекламных идентификаторов и рекламы;</li>
+  <li>сторонних библиотек слежения;</li>
+  <li>сведений о местоположении;</li>
+  <li>доступа к контактам, звонкам и сообщениям;</li>
+  <li>записи звука — разрешение на микрофон явно отключено в самом приложении.</li>
+</ul>
+<p>Ваши данные не продаются, не передаются третьим лицам и не используются для рекламы.</p>
+
+<h2>4. Разрешения устройства</h2>
+<table>
+  <tr><th>Разрешение</th><th>Зачем</th></tr>
+  <tr>
+    <td>Камера и галерея</td>
+    <td>Только в момент, когда вы сами добавляете фотографию питомца или документ. Снимки остаются на устройстве.</td>
+  </tr>
+  <tr>
+    <td>Уведомления</td>
+    <td>Напоминания о процедурах. Формируются самим телефоном, на сервер не отправляются.</td>
+  </tr>
+  <tr>
+    <td>Доступ к файлам</td>
+    <td>Чтобы прикрепить документ и чтобы сохранить резервную копию или выписку в PDF.</td>
+  </tr>
+</table>
+
+<h2>5. Дети</h2>
+<p>
+  Приложение не предназначено для детей младше 13 лет и не собирает их данные намеренно.
+</p>
+
+<h2>6. Как удалить свои данные</h2>
+<ul>
+  <li>
+    <strong>Учётную запись и облачную копию</strong> — в приложении:
+    Настройки → Облако → Удалить аккаунт. Удаление необратимо и происходит сразу.
+  </li>
+  <li>
+    <strong>Записи на устройстве</strong> — удалением приложения либо очисткой его
+    данных в настройках телефона.
+  </li>
+</ul>
+
+<h2>7. Изменения</h2>
+<p>
+  При изменении политики обновляется дата вверху страницы. Существенные изменения
+  будут отражены в описании обновления приложения.
+</p>
+
+<h2>8. Связь</h2>
+<p>
+  Вопросы о данных и запросы на удаление:
+  <a href="mailto:ЗАМЕНИТЕ@example.com">ЗАМЕНИТЕ@example.com</a>
+</p>
+
+<hr>
+
+<h1 id="en">Privacy Policy</h1>
+<p class="sub">
+  <strong>Lapa</strong> app (<code>com.lapa.petcare</code>)<br>
+  Last updated: 5 September 2026
+</p>
+
+<p>
+  Lapa is a pet care app. It works offline, and by default everything you record
+  stays on your device only.
+</p>
+
+<h2>1. Data you enter</h2>
+<p>You enter all of the following yourself, and it is stored <strong>in your phone's storage</strong>:</p>
+<ul>
+  <li>pet details: name, species, breed, sex, date of birth, weight, colour, microchip number, notes, photo;</li>
+  <li>care procedures and their reminders;</li>
+  <li>medical records: vaccinations, vet visits, diagnoses, treatments, visit cost;</li>
+  <li>attached photos and documents;</li>
+  <li>weight measurement history.</li>
+</ul>
+<p>None of this is transmitted anywhere. The developer has no access to it.</p>
+
+<h2>2. Cloud backup — only if you turn it on</h2>
+<p>
+  Settings offer an optional cloud backup. It is off by default and requires creating
+  an account. If you enable it:
+</p>
+<ul>
+  <li>
+    <strong>Email address and password.</strong> Needed so you can sign in from a second
+    device. The password is stored as an irreversible cryptographic hash, not in plain
+    text, and is unknown to the developer.
+  </li>
+  <li>
+    <strong>A snapshot of your records</strong> — the same items listed in section 1.
+    It is bound to your account, and database-side access rules prevent anyone but you
+    from reading it.
+  </li>
+</ul>
+<p>
+  Data is stored on Supabase Inc. servers in <strong>Frankfurt, Germany (EU)</strong>.
+  The sign-in token is kept in the device's secure system storage (Android Keystore),
+  not in a plain file.
+</p>
+<p>If you never enable cloud backup, the app makes no network requests at all.</p>
+
+<h2>3. What is NOT collected</h2>
+<p>None of the following exists in the app, and none ever has:</p>
+<ul>
+  <li>analytics or usage tracking;</li>
+  <li>advertising identifiers or advertising;</li>
+  <li>third-party tracking libraries;</li>
+  <li>location data;</li>
+  <li>access to contacts, calls or messages;</li>
+  <li>audio recording — the microphone permission is explicitly disabled in the app.</li>
+</ul>
+<p>Your data is never sold, shared with third parties, or used for advertising.</p>
+
+<h2>4. Device permissions</h2>
+<table>
+  <tr><th>Permission</th><th>Why</th></tr>
+  <tr>
+    <td>Camera and photo library</td>
+    <td>Only at the moment you add a pet photo or a document yourself. Images stay on the device.</td>
+  </tr>
+  <tr>
+    <td>Notifications</td>
+    <td>Reminders for care procedures. Generated by the phone itself; nothing is sent to a server.</td>
+  </tr>
+  <tr>
+    <td>File access</td>
+    <td>To attach a document, and to save a backup or a PDF summary.</td>
+  </tr>
+</table>
+
+<h2>5. Children</h2>
+<p>The app is not directed at children under 13 and does not knowingly collect their data.</p>
+
+<h2>6. Deleting your data</h2>
+<ul>
+  <li>
+    <strong>Account and cloud backup</strong> — in the app: Settings → Cloud → Delete account.
+    Deletion is immediate and irreversible.
+  </li>
+  <li>
+    <strong>Records on the device</strong> — uninstall the app, or clear its data in the
+    phone's settings.
+  </li>
+</ul>
+
+<h2>7. Changes</h2>
+<p>
+  If this policy changes, the date at the top is updated. Significant changes will also
+  be noted in the app's release notes.
+</p>
+
+<h2>8. Contact</h2>
+<p>
+  Questions about data and deletion requests:
+  <a href="mailto:ЗАМЕНИТЕ@example.com">ЗАМЕНИТЕ@example.com</a>
+</p>
+
+</body>
+</html>
